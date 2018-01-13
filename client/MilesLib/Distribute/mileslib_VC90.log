@@ -1,0 +1,43 @@
+﻿Build started 11.01.2018 21:56:08.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\MilesLib\mileslib_VC90.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/mileslib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SoundBase.cpp SoundData.cpp SoundInstance2D.cpp SoundInstance3D.cpp SoundInstanceStream.cpp SoundManager.cpp SoundManager2D.cpp SoundManager3D.cpp SoundManagerStream.cpp Type.cpp
+         SoundBase.cpp
+         SoundData.cpp
+     1>SoundData.cpp(19): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+         SoundInstance2D.cpp
+         SoundInstance3D.cpp
+         SoundInstanceStream.cpp
+         SoundManager.cpp
+         SoundManager2D.cpp
+         SoundManager3D.cpp
+         SoundManagerStream.cpp
+         Type.cpp
+     1>Type.cpp(48): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_snprintf'
+     1>Type.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>Type.cpp(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_snprintf'
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\mileslib.lib" /NOLOGO .\Distribute/SoundBase.obj
+         .\Distribute/SoundData.obj
+         .\Distribute/SoundInstance2D.obj
+         .\Distribute/SoundInstance3D.obj
+         .\Distribute/SoundInstanceStream.obj
+         .\Distribute/SoundManager.obj
+         .\Distribute/SoundManager2D.obj
+         .\Distribute/SoundManager3D.obj
+         .\Distribute/SoundManagerStream.obj
+         .\Distribute/Stdafx.obj
+         .\Distribute/Type.obj
+         mileslib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\MilesLib\.\Distribute\mileslib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\MilesLib\mileslib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.69

@@ -1,0 +1,63 @@
+﻿Build started 11.01.2018 21:55:15.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterPack\EterPack_VC90.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EterPack.cpp EterPackCursor.cpp EterPackManager.cpp EterPackPolicy_CSHybridCrypt.cpp StdAfx.cpp
+         EterPack.cpp
+     1>a:\from c\desktop\serwer\source\source client\client\eterpack\Inline.h(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPack.cpp(87): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>EterPack.cpp(101): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>EterPack.cpp(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(142): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>EterPack.cpp(156): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>EterPack.cpp(179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(252): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPack.cpp(254): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPack.cpp(255): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(118) : see declaration of 'strcat'
+     1>EterPack.cpp(370): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(1110): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(1121): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(1221): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPack.cpp(1234): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPack.cpp(1255): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>EterPack.cpp(1263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(211) : see declaration of 'fopen'
+         EterPackCursor.cpp
+     1>a:\from c\desktop\serwer\source\source client\client\eterpack\Inline.h(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>EterPackCursor.cpp(19): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\string.h(195) : see declaration of 'strncpy'
+         EterPackManager.cpp
+         EterPackPolicy_CSHybridCrypt.cpp
+         StdAfx.cpp
+         Generating Code...
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt md5.c
+         md5.c
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\EterPack.lib" /LIBPATH:../../extern/lib /NOLOGO .\Distribute/EterPack.obj
+         .\Distribute/EterPackCursor.obj
+         .\Distribute/EterPackManager.obj
+         .\Distribute/EterPackPolicy_CSHybridCrypt.obj
+         .\Distribute/md5.obj
+         .\Distribute/StdAfx.obj
+         EterPack_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\EterPack\.\Distribute\EterPack.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterPack\EterPack_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.68

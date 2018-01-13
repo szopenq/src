@@ -1,0 +1,19 @@
+﻿Build started 11.01.2018 21:55:18.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\PRTerrainLib\PRTerrainLib_VC90.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/PRTerrainLib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Distribute/PRTerrainLib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Terrain.cpp TextureSet.cpp
+         Terrain.cpp
+         TextureSet.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\PRTerrainLib.lib" /NOLOGO .\Distribute/StdAfx.obj
+         .\Distribute/Terrain.obj
+         .\Distribute/TextureSet.obj
+         PRTerrainLib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\PRTerrainLib\.\Distribute\PRTerrainLib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\PRTerrainLib\PRTerrainLib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.77

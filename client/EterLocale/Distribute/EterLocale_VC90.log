@@ -1,0 +1,23 @@
+﻿Build started 11.01.2018 21:55:15.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLocale\EterLocale_VC90.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/EterLocale.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Arabic.cpp Japanese.cpp StringCodec.cpp StringCodec_Vietnamese.cpp
+         Arabic.cpp
+         Japanese.cpp
+         StringCodec.cpp
+         StringCodec_Vietnamese.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\EterLocale.lib" /NOLOGO .\Distribute/Arabic.obj
+         .\Distribute/Japanese.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/StringCodec.obj
+         .\Distribute/StringCodec_Vietnamese.obj
+         EterLocale_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\EterLocale\.\Distribute\EterLocale.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLocale\EterLocale_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.84

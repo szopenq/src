@@ -1,0 +1,135 @@
+﻿Build started 11.01.2018 21:55:45.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\GameLib\gamelib_VC90.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D USE_LOD /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/gamelib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D USE_LOD /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Distribute/gamelib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ActorInstance.cpp ActorInstanceAttach.cpp ActorInstanceBattle.cpp ActorInstanceBlend.cpp ActorInstanceCollisionDetection.cpp ActorInstanceData.cpp ActorInstanceEvent.cpp ActorInstanceFly.cpp ActorInstanceMotion.cpp ActorInstanceMotionEvent.cpp ActorInstancePosition.cpp ActorInstanceRender.cpp ActorInstanceRotation.cpp ActorInstanceSync.cpp ActorInstanceWeaponTrace.cpp Area.cpp AreaLoaderThread.cpp AreaTerrain.cpp DungeonBlock.cpp FlyingData.cpp FlyingInstance.cpp FlyingObjectManager.cpp FlyTarget.cpp FlyTrace.cpp GameEventManager.cpp GameType.cpp GameUtil.cpp ItemData.cpp ItemManager.cpp MapBase.cpp MapManager.cpp MapOutdoor.cpp MapOutdoorCharacterShadow.cpp MapOutdoorIndexBuffer.cpp MapOutdoorLoad.cpp MapOutdoorQuadtree.cpp MapOutdoorRender.cpp MapOutdoorRenderHTP.cpp MapOutdoorRenderSTP.cpp MapOutdoorUpdate.cpp MapOutdoorWater.cpp MapType.cpp MapUtil.cpp MonsterAreaInfo.cpp PhysicsObject.cpp Property.cpp PropertyLoader.cpp PropertyManager.cpp RaceData.cpp RaceDataFile.cpp RaceManager.cpp RaceMotionData.cpp SnowEnvironment.cpp SnowParticle.cpp TerrainDecal.cpp TerrainPatch.cpp TerrainQuadtree.cpp WeaponTrace.cpp
+         ActorInstance.cpp
+         ActorInstanceAttach.cpp
+         ActorInstanceBattle.cpp
+         ActorInstanceBlend.cpp
+         ActorInstanceCollisionDetection.cpp
+         ActorInstanceData.cpp
+         ActorInstanceEvent.cpp
+         ActorInstanceFly.cpp
+         ActorInstanceMotion.cpp
+         ActorInstanceMotionEvent.cpp
+         ActorInstancePosition.cpp
+         ActorInstanceRender.cpp
+         ActorInstanceRotation.cpp
+         ActorInstanceSync.cpp
+         ActorInstanceWeaponTrace.cpp
+         Area.cpp
+         AreaLoaderThread.cpp
+         AreaTerrain.cpp
+         DungeonBlock.cpp
+         FlyingData.cpp
+         Generating Code...
+         Compiling...
+         FlyingInstance.cpp
+         FlyingObjectManager.cpp
+         FlyTarget.cpp
+         FlyTrace.cpp
+         GameEventManager.cpp
+         GameType.cpp
+         GameUtil.cpp
+         ItemData.cpp
+         ItemManager.cpp
+         MapBase.cpp
+         MapManager.cpp
+         MapOutdoor.cpp
+         MapOutdoorCharacterShadow.cpp
+         MapOutdoorIndexBuffer.cpp
+         MapOutdoorLoad.cpp
+         MapOutdoorQuadtree.cpp
+         MapOutdoorRender.cpp
+         MapOutdoorRenderHTP.cpp
+         MapOutdoorRenderSTP.cpp
+         MapOutdoorUpdate.cpp
+         Generating Code...
+         Compiling...
+         MapOutdoorWater.cpp
+         MapType.cpp
+         MapUtil.cpp
+         MonsterAreaInfo.cpp
+         PhysicsObject.cpp
+         Property.cpp
+         PropertyLoader.cpp
+         PropertyManager.cpp
+         RaceData.cpp
+         RaceDataFile.cpp
+         RaceManager.cpp
+         RaceMotionData.cpp
+         SnowEnvironment.cpp
+         SnowParticle.cpp
+         TerrainDecal.cpp
+         TerrainPatch.cpp
+         TerrainQuadtree.cpp
+         WeaponTrace.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\gamelib.lib" /NOLOGO .\Distribute/ActorInstance.obj
+         .\Distribute/ActorInstanceAttach.obj
+         .\Distribute/ActorInstanceBattle.obj
+         .\Distribute/ActorInstanceBlend.obj
+         .\Distribute/ActorInstanceCollisionDetection.obj
+         .\Distribute/ActorInstanceData.obj
+         .\Distribute/ActorInstanceEvent.obj
+         .\Distribute/ActorInstanceFly.obj
+         .\Distribute/ActorInstanceMotion.obj
+         .\Distribute/ActorInstanceMotionEvent.obj
+         .\Distribute/ActorInstancePosition.obj
+         .\Distribute/ActorInstanceRender.obj
+         .\Distribute/ActorInstanceRotation.obj
+         .\Distribute/ActorInstanceSync.obj
+         .\Distribute/ActorInstanceWeaponTrace.obj
+         .\Distribute/Area.obj
+         .\Distribute/AreaLoaderThread.obj
+         .\Distribute/AreaTerrain.obj
+         .\Distribute/DungeonBlock.obj
+         .\Distribute/FlyingData.obj
+         .\Distribute/FlyingInstance.obj
+         .\Distribute/FlyingObjectManager.obj
+         .\Distribute/FlyTarget.obj
+         .\Distribute/FlyTrace.obj
+         .\Distribute/GameEventManager.obj
+         .\Distribute/GameType.obj
+         .\Distribute/GameUtil.obj
+         .\Distribute/ItemData.obj
+         .\Distribute/ItemManager.obj
+         .\Distribute/MapBase.obj
+         .\Distribute/MapManager.obj
+         .\Distribute/MapOutdoor.obj
+         .\Distribute/MapOutdoorCharacterShadow.obj
+         .\Distribute/MapOutdoorIndexBuffer.obj
+         .\Distribute/MapOutdoorLoad.obj
+         .\Distribute/MapOutdoorQuadtree.obj
+         .\Distribute/MapOutdoorRender.obj
+         .\Distribute/MapOutdoorRenderHTP.obj
+         .\Distribute/MapOutdoorRenderSTP.obj
+         .\Distribute/MapOutdoorUpdate.obj
+         .\Distribute/MapOutdoorWater.obj
+         .\Distribute/MapType.obj
+         .\Distribute/MapUtil.obj
+         .\Distribute/MonsterAreaInfo.obj
+         .\Distribute/PhysicsObject.obj
+         .\Distribute/Property.obj
+         .\Distribute/PropertyLoader.obj
+         .\Distribute/PropertyManager.obj
+         .\Distribute/RaceData.obj
+         .\Distribute/RaceDataFile.obj
+         .\Distribute/RaceManager.obj
+         .\Distribute/RaceMotionData.obj
+         .\Distribute/SnowEnvironment.obj
+         .\Distribute/SnowParticle.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/TerrainDecal.obj
+         .\Distribute/TerrainPatch.obj
+         .\Distribute/TerrainQuadtree.obj
+         .\Distribute/WeaponTrace.obj
+         gamelib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\GameLib\.\Distribute\gamelib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\GameLib\gamelib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:57.53

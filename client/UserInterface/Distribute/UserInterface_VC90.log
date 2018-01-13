@@ -1,0 +1,183 @@
+﻿Build started 13.01.2018 13:49:10.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\UserInterface\UserInterface_VC90.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I../../extern/include /I../../extern/include/directx9 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D USE_LOD /D _DISTRIBUTE /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Distribute/UserInterface.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GuildMarkDownloader.cpp InstanceBase.cpp InstanceBaseBattle.cpp InstanceBaseEffect.cpp InstanceBaseEvent.cpp InstanceBaseMotion.cpp InstanceBaseMovement.cpp InstanceBaseTransform.cpp Locale.cpp MovieMan.cpp NetworkActorManager.cpp PythonApplication.cpp PythonApplicationCamera.cpp PythonApplicationCursor.cpp PythonApplicationEvent.cpp PythonApplicationLogo.cpp PythonApplicationModule.cpp PythonApplicationProcedure.cpp PythonApplicationWebPage.cpp PythonBackground.cpp PythonCharacterManager.cpp PythonCharacterManagerModule.cpp PythonCharacterModule.cpp PythonChat.cpp PythonEffectModule.cpp PythonIMEModule.cpp PythonItemModule.cpp PythonMiniMap.cpp PythonNetworkStream.cpp PythonNetworkStreamCommand.cpp PythonNetworkStreamPhaseGame.cpp PythonNetworkStreamPhaseGameActor.cpp PythonNetworkStreamPhaseGameItem.cpp PythonNetworkStreamPhaseHandShake.cpp PythonNetworkStreamPhaseLoading.cpp PythonNetworkStreamPhaseOffline.cpp PythonNonPlayer.cpp PythonNonPlayerModule.cpp PythonPlayer.cpp PythonPlayerEventHandler.cpp PythonPlayerInput.cpp PythonPlayerInputKeyboard.cpp PythonPlayerInputMouse.cpp PythonPlayerModule.cpp PythonPlayerSkill.cpp PythonSkill.cpp PythonSoundManagerModule.cpp PythonSystem.cpp PythonTextTail.cpp PythonTextTailModule.cpp UserInterface.cpp
+         GuildMarkDownloader.cpp
+         InstanceBase.cpp
+         InstanceBaseBattle.cpp
+         InstanceBaseEffect.cpp
+         InstanceBaseEvent.cpp
+         InstanceBaseMotion.cpp
+         InstanceBaseMovement.cpp
+         InstanceBaseTransform.cpp
+         Locale.cpp
+         MovieMan.cpp
+         NetworkActorManager.cpp
+     1>NetworkActorManager.cpp(367): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>NetworkActorManager.cpp(417): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         PythonApplication.cpp
+         PythonApplicationCamera.cpp
+         PythonApplicationCursor.cpp
+         PythonApplicationEvent.cpp
+         PythonApplicationLogo.cpp
+         PythonApplicationModule.cpp
+         PythonApplicationProcedure.cpp
+         PythonApplicationWebPage.cpp
+         PythonBackground.cpp
+         Generating Code...
+         Compiling...
+         PythonCharacterManager.cpp
+         PythonCharacterManagerModule.cpp
+         PythonCharacterModule.cpp
+         PythonChat.cpp
+         PythonEffectModule.cpp
+         PythonIMEModule.cpp
+         PythonItemModule.cpp
+         PythonMiniMap.cpp
+         PythonNetworkStream.cpp
+         PythonNetworkStreamCommand.cpp
+         PythonNetworkStreamPhaseGame.cpp
+         PythonNetworkStreamPhaseGameActor.cpp
+         PythonNetworkStreamPhaseGameItem.cpp
+         PythonNetworkStreamPhaseHandShake.cpp
+         PythonNetworkStreamPhaseLoading.cpp
+         PythonNetworkStreamPhaseOffline.cpp
+         PythonNonPlayer.cpp
+         PythonNonPlayerModule.cpp
+         PythonPlayer.cpp
+         PythonPlayerEventHandler.cpp
+         Generating Code...
+         Compiling...
+         PythonPlayerInput.cpp
+         PythonPlayerInputKeyboard.cpp
+         PythonPlayerInputMouse.cpp
+         PythonPlayerModule.cpp
+     1>PythonPlayerModule.cpp(763): warning C4101: 'iSourceSlotIndex' : unreferenced local variable
+     1>PythonPlayerModule.cpp(978): warning C4101: 'iSlotPos' : unreferenced local variable
+         PythonPlayerSkill.cpp
+         PythonSkill.cpp
+         PythonSoundManagerModule.cpp
+         PythonSystem.cpp
+         PythonTextTail.cpp
+         PythonTextTailModule.cpp
+         UserInterface.cpp
+         Generating Code...
+       Link:
+         A:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\From C\Desktop\Serwer\Source\Source Client\client\bin\Metin2Dev_Distribute.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../extern/lib /LIBPATH:../../extern/lib/vc90 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libci.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:metin2client.exe.manifest /PDB:".\Distribute/metin2client.pdb" /MAP:".\Distribute/metin2client.map" /MAPINFO:EXPORTS /SUBSYSTEM:WINDOWS,"5.01" /LARGEADDRESSAWARE /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"A:\From C\Desktop\Serwer\Source\Source Client\client\bin\Metin2Dev_Distribute.lib" /MACHINE:X86 /SAFESEH:NO Distribute\UserInterface.res
+         .\Distribute/AffectFlagContainer.obj
+         .\Distribute/InstanceBase.obj
+         .\Distribute/InstanceBaseBattle.obj
+         .\Distribute/InstanceBaseEffect.obj
+         .\Distribute/InstanceBaseEvent.obj
+         .\Distribute/InstanceBaseMotion.obj
+         .\Distribute/InstanceBaseMovement.obj
+         .\Distribute/InstanceBaseTransform.obj
+         .\Distribute/CameraProcedure.obj
+         .\Distribute/PythonBackground.obj
+         .\Distribute/PythonBackgroundModule.obj
+         .\Distribute/PythonCharacterManager.obj
+         .\Distribute/PythonCharacterManagerModule.obj
+         .\Distribute/PythonCharacterModule.obj
+         .\Distribute/PythonEffectModule.obj
+         .\Distribute/PythonEventManager.obj
+         .\Distribute/PythonEventManagerMoudle.obj
+         .\Distribute/PythonGameEventManagerModule.obj
+         .\Distribute/PythonItem.obj
+         .\Distribute/PythonItemModule.obj
+         .\Distribute/PythonNonPlayer.obj
+         .\Distribute/PythonNonPlayerModule.obj
+         .\Distribute/PythonPlayer.obj
+         .\Distribute/PythonPlayerEventHandler.obj
+         .\Distribute/PythonPlayerInput.obj
+         .\Distribute/PythonPlayerInputKeyboard.obj
+         .\Distribute/PythonPlayerInputMouse.obj
+         .\Distribute/PythonPlayerModule.obj
+         .\Distribute/PythonPlayerSkill.obj
+         .\Distribute/PythonQuest.obj
+         .\Distribute/PythonSkill.obj
+         .\Distribute/PythonChat.obj
+         .\Distribute/PythonChatModule.obj
+         .\Distribute/PythonExchange.obj
+         .\Distribute/PythonExchangeModule.obj
+         .\Distribute/PythonFlyModule.obj
+         .\Distribute/PythonGuild.obj
+         .\Distribute/PythonMessenger.obj
+         .\Distribute/PythonMiniMap.obj
+         .\Distribute/PythonMiniMapModule.obj
+         .\Distribute/PythonSafeBox.obj
+         .\Distribute/PythonShop.obj
+         .\Distribute/PythonTextTail.obj
+         .\Distribute/PythonTextTailModule.obj
+         .\Distribute/PythonPackModule.obj
+         .\Distribute/ProcessScanner.obj
+         .\Distribute/PythonApplication.obj
+         .\Distribute/PythonApplicationCamera.obj
+         .\Distribute/PythonApplicationCursor.obj
+         .\Distribute/PythonApplicationEvent.obj
+         .\Distribute/PythonApplicationLogo.obj
+         .\Distribute/PythonApplicationModule.obj
+         .\Distribute/PythonApplicationProcedure.obj
+         .\Distribute/PythonApplicationWebPage.obj
+         .\Distribute/PythonIME.obj
+         .\Distribute/PythonIMEModule.obj
+         .\Distribute/PythonProfilerModule.obj
+         .\Distribute/PythonSoundManagerModule.obj
+         .\Distribute/PythonSystem.obj
+         .\Distribute/PythonSystemModule.obj
+         .\Distribute/GuildMarkDownloader.obj
+         .\Distribute/GuildMarkUploader.obj
+         .\Distribute/MarkImage.obj
+         .\Distribute/MarkManager.obj
+         .\Distribute/Locale.obj
+         .\Distribute/AccountConnector.obj
+         .\Distribute/InsultChecker.obj
+         .\Distribute/NetworkActorManager.obj
+         .\Distribute/ProcessCRC.obj
+         .\Distribute/PythonExceptionSender.obj
+         .\Distribute/PythonNetworkDatagram.obj
+         .\Distribute/PythonNetworkDatagramModule.obj
+         .\Distribute/PythonNetworkStream.obj
+         .\Distribute/PythonNetworkStreamCommand.obj
+         .\Distribute/PythonNetworkStreamEvent.obj
+         .\Distribute/PythonNetworkStreamModule.obj
+         .\Distribute/PythonNetworkStreamPhaseGame.obj
+         .\Distribute/PythonNetworkStreamPhaseGameActor.obj
+         .\Distribute/PythonNetworkStreamPhaseGameItem.obj
+         .\Distribute/PythonNetworkStreamPhaseHandShake.obj
+         .\Distribute/PythonNetworkStreamPhaseLoading.obj
+         .\Distribute/PythonNetworkStreamPhaseLogin.obj
+         .\Distribute/PythonNetworkStreamPhaseOffline.obj
+         .\Distribute/PythonNetworkStreamPhaseSelect.obj
+         .\Distribute/ServerStateChecker.obj
+         .\Distribute/ServerStateCheckerModule.obj
+         .\Distribute/CheckLatestFiles.obj
+         .\Distribute/Hackshield.obj
+         .\Distribute/NProtectGameGuard.obj
+         .\Distribute/WiseLogicXTrap.obj
+         .\Distribute/GameType.obj
+         .\Distribute/MovieMan.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/UserInterface.obj
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\CWebBrowser\Distribute\CWebBrowser.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\EffectLib\Distribute\EffectLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\EterBase\Distribute\eterBase.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\eterGrnLib\Distribute\eterGrnLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\eterImageLib\Distribute\eterImageLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLocale\Distribute\EterLocale.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLib\Distribute\eterlib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\EterPack\Distribute\EterPack.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\eterPythonLib\Distribute\eterPythonLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\GameLib\Distribute\gamelib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\MilesLib\Distribute\mileslib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\PRTerrainLib\Distribute\PRTerrainLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\scriptLib\Distribute\scriptLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\SpeedTreeLib\Distribute\SpeedTreeLib.lib"
+         "A:\From C\Desktop\Serwer\Source\Source Client\client\SphereLib\Distribute\SphereLib.lib"
+         Generating code
+         Finished generating code
+         UserInterface_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\bin\Metin2Dev_Distribute.exe
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\UserInterface\UserInterface_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:46.71

@@ -1,0 +1,509 @@
+﻿Build started 11.01.2018 21:55:30.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterBase\eterBase_VC90.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I../../extern/include /Zi /nologo /W4 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cipher.cpp CPostIt.cpp CRC32.cpp Debug.cpp error.cpp FileBase.cpp FileDir.cpp FileLoader.cpp lzo.cpp MappedFile.cpp poly\Base.cpp poly\Poly.cpp poly\Symbol.cpp poly\SymTable.cpp Random.cpp StdAfx.cpp Stl.cpp tea.cpp TempFile.cpp Timer.cpp Utils.cpp
+         cipher.cpp
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(192): warning C4100: 'blocking' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(192): warning C4100: 'channel' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(192): warning C4100: 'target' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(194): warning C4100: 'blocking' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(194): warning C4100: 'channel' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(194): warning C4100: 'end' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(194): warning C4100: 'begin' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(194): warning C4100: 'target' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(202): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(203): warning C4100: 'blocking' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(203): warning C4100: 'messageEnd' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(203): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(203): warning C4100: 'begin' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(76): warning C4100: 'iterationCount' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(76): warning C4100: 'input' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(76): warning C4100: 'output' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(76): warning C4100: 'operation' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(78): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(78): warning C4100: 'iv' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(78): warning C4100: 'keystreamBuffer' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(80): warning C4100: 'iterationCount' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(171): warning C4100: 'iterationCount' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(171): warning C4100: 'dir' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(171): warning C4100: 'input' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(171): warning C4100: 'output' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(173): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\strciphr.h(173): warning C4100: 'iv' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(80): warning C4512: 'CryptoPP::CombinedNameValuePairs' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(70) : see declaration of 'CryptoPP::CombinedNameValuePairs'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(93): warning C4512: 'CryptoPP::ByteQueue::Walker' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(64) : see declaration of 'CryptoPP::ByteQueue::Walker'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(122): warning C4512: 'CryptoPP::LazyPutter' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(112) : see declaration of 'CryptoPP::LazyPutter'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(130): warning C4512: 'CryptoPP::LazyPutterModifiable' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\queue.h(125) : see declaration of 'CryptoPP::LazyPutterModifiable'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(94): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(174): warning C4100: 'lastSize' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(174): warning C4100: 'blockSize' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(174): warning C4100: 'firstSize' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(176): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(181): warning C4100: 'inString' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(205): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(205): warning C4100: 'inString' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(251): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(536): warning C4512: 'CryptoPP::OutputProxy' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(501) : see declaration of 'CryptoPP::OutputProxy'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(700): warning C4100: 'blocking' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(700): warning C4100: 'channel' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(700): warning C4100: 'end' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(700): warning C4100: 'begin' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(700): warning C4100: 'target' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(717): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\modarith.h(101): warning C4100: 'ignore_for_now' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(71): warning C4100: 'rng' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(109): warning C4100: 'name' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(189): warning C4100: 'digestLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(189): warning C4100: 'hashIdentifierLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(191): warning C4100: 'digestLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(191): warning C4100: 'hashIdentifierLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(191): warning C4100: 'representativeBitLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(202): warning C4100: 'semisignatureLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(202): warning C4100: 'semisignature' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(202): warning C4100: 'hash' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(208): warning C4100: 'semisignature' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(207): warning C4100: 'presignatureLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(207): warning C4100: 'presignature' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(206): warning C4100: 'recoverableMessageLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(206): warning C4100: 'recoverableMessage' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(205): warning C4100: 'hash' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(226): warning C4100: 'recoveredMessage' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(225): warning C4100: 'representativeBitLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(225): warning C4100: 'representative' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(224): warning C4100: 'messageEmpty' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(224): warning C4100: 'hashIdentifier' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(224): warning C4100: 'hash' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(233): warning C4100: 'recoveredMessage' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(232): warning C4100: 'semisignatureLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(232): warning C4100: 'semisignature' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(231): warning C4100: 'presignatureLength' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(231): warning C4100: 'presignature' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(230): warning C4100: 'hashIdentifier' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(230): warning C4100: 'hash' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(937): warning C4100: 'name' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(156): warning C4512: 'CryptoPP::BERGeneralDecoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(128) : see declaration of 'CryptoPP::BERGeneralDecoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(154): warning C4100: 'parameters' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(174): warning C4512: 'CryptoPP::DERGeneralEncoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(159) : see declaration of 'CryptoPP::DERGeneralEncoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(184): warning C4512: 'CryptoPP::BERSequenceDecoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(177) : see declaration of 'CryptoPP::BERSequenceDecoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(194): warning C4512: 'CryptoPP::DERSequenceEncoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(187) : see declaration of 'CryptoPP::DERSequenceEncoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(204): warning C4512: 'CryptoPP::BERSetDecoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(197) : see declaration of 'CryptoPP::BERSetDecoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(214): warning C4512: 'CryptoPP::DERSetEncoder' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\asn.h(207) : see declaration of 'CryptoPP::DERSetEncoder'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(53): warning C4100: 'reversible' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(55): warning C4100: 'reversible' : unreferenced formal parameter
+     1>A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/dh2.h(54): warning C4512: 'CryptoPP::DH2' : assignment operator could not be generated
+                 A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/dh2.h(12) : see declaration of 'CryptoPP::DH2'
+     1>A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/tea.h(100): warning C4100: 'length' : unreferenced formal parameter
+     1>cipher.cpp(134): warning C4512: 'DH2KeyAgreement' : assignment operator could not be generated
+                 cipher.cpp(121) : see declaration of 'DH2KeyAgreement'
+     1>cipher.cpp(380): warning C4189: 'count' : local variable is initialized but not referenced
+     1>cipher.cpp(446): warning C4193: #pragma warning(pop) : no matching '#pragma warning(push)'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(88): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(89) : while compiling class template member function 'size_t CryptoPP::InputRejecting<CryptoPP::BufferedTransformation>::Put2(const byte *,size_t,int,bool)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(153) : see reference to class template instantiation 'CryptoPP::InputRejecting<CryptoPP::BufferedTransformation>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(168) : see reference to class template instantiation 'CryptoPP::AutoSignaling<CryptoPP::InputRejecting<CryptoPP::BufferedTransformation>>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(88): warning C4100: 'messageEnd' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(88): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(88): warning C4100: 'begin' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(93): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(94) : while compiling class template member function 'size_t CryptoPP::InputRejecting<CryptoPP::BufferedTransformation>::ChannelPut2(const std::string &,const byte *,size_t,int,bool)'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(93): warning C4100: 'messageEnd' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(93): warning C4100: 'length' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(93): warning C4100: 'begin' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(93): warning C4100: 'channel' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(52): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(52) : while compiling class template member function 'bool CryptoPP::Bufferless<CryptoPP::Sink>::IsolatedFlush(bool,bool)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(199) : see reference to class template instantiation 'CryptoPP::Bufferless<CryptoPP::Sink>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(52): warning C4100: 'hardFlush' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(322): warning C4189: 'p' : local variable is initialized but not referenced
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(321) : while compiling class template member function 'void CryptoPP::AlgorithmParametersTemplate<bool>::MoveInto(void *) const'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(329) : see reference to class template instantiation 'CryptoPP::AlgorithmParametersTemplate<bool>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(62): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(63) : while compiling class template member function 'bool CryptoPP::Unflushable<CryptoPP::Filter>::IsolatedFlush(bool,bool)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(388) : see reference to class template instantiation 'CryptoPP::Unflushable<CryptoPP::Filter>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(62): warning C4100: 'hardFlush' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(117): warning C4100: 'parameters' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(117) : while compiling class template member function 'void CryptoPP::CustomSignalPropagation<CryptoPP::Sink>::IsolatedInitialize(const CryptoPP::NameValuePairs &)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(442) : see reference to class template instantiation 'CryptoPP::CustomSignalPropagation<CryptoPP::Sink>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(106): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(106) : while compiling class template member function 'bool CryptoPP::CustomFlushPropagation<T>::IsolatedFlush(bool,bool)'
+                 with
+                 [
+                     T=CryptoPP::Sink
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(112) : see reference to class template instantiation 'CryptoPP::CustomFlushPropagation<T>' being compiled
+                 with
+                 [
+                     T=CryptoPP::Sink
+                 ]
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(106): warning C4100: 'hardFlush' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(597): warning C4100: 'blocking' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(598) : while compiling class template member function 'size_t CryptoPP::StringSinkTemplate<std::string>::Put2(const byte *,size_t,int,bool)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(614) : see reference to class template instantiation 'CryptoPP::StringSinkTemplate<std::string>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\filters.h(597): warning C4100: 'messageEnd' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(317): warning C4100: 'signatureLength' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(318) : while compiling class template member function 'size_t CryptoPP::TF_SignatureSchemeBase<CryptoPP::PK_Signer,CryptoPP::TF_Base<CryptoPP::RandomizedTrapdoorFunctionInverse,CryptoPP::PK_SignatureMessageEncodingMethod>>::MaxRecoverableLengthFromSignatureLength(size_t) const'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(336) : see reference to class template instantiation 'CryptoPP::TF_SignatureSchemeBase<CryptoPP::PK_Signer,CryptoPP::TF_Base<CryptoPP::RandomizedTrapdoorFunctionInverse,CryptoPP::PK_SignatureMessageEncodingMethod>>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(226): warning C4512: 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>,CryptoPP::DL_GroupParameters_IntegerBased>' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(96) : see reference to class template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>,CryptoPP::DL_GroupParameters_IntegerBased>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(96) : while compiling class template member function 'void CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>::AssignFrom(const CryptoPP::NameValuePairs &)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(116) : see reference to class template instantiation 'CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(905): warning C4100: 's' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(906) : while compiling class template member function 'CryptoPP::Integer CryptoPP::DL_ElgamalLikeSignatureAlgorithm<T>::RecoverPresignature(const CryptoPP::DL_GroupParameters<T> &,const CryptoPP::DL_PublicKey<T> &,const CryptoPP::Integer &,const CryptoPP::Integer &) const'
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(153) : see reference to class template instantiation 'CryptoPP::DL_ElgamalLikeSignatureAlgorithm<T>' being compiled
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(180) : see reference to class template instantiation 'CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(905): warning C4100: 'r' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(905): warning C4100: 'publicKey' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(905): warning C4100: 'params' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(226): warning C4512: 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PublicKeyImpl<GP>,CryptoPP::DL_PublicKey<T>>' : assignment operator could not be generated
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+         ,            T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(859) : see reference to class template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PublicKeyImpl<GP>,CryptoPP::DL_PublicKey<T>>' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+         ,            T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(858) : while compiling class template member function 'void CryptoPP::DL_PublicKeyImpl<GP>::AssignFrom(const CryptoPP::NameValuePairs &)'
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(212) : see reference to class template instantiation 'CryptoPP::DL_PublicKeyImpl<GP>' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(414) : see reference to class template instantiation 'CryptoPP::DL_PublicKey_GFP<CryptoPP::DL_GroupParameters_DSA>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(226): warning C4512: 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PrivateKeyImpl<GP>,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>' : assignment operator could not be generated
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(776) : see reference to class template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PrivateKeyImpl<GP>,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(775) : while compiling class template member function 'void CryptoPP::DL_PrivateKeyImpl<GP>::AssignFrom(const CryptoPP::NameValuePairs &)'
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(231) : see reference to class template instantiation 'CryptoPP::DL_PrivateKeyImpl<GP>' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(415) : see reference to class template instantiation 'CryptoPP::DL_PrivateKey_GFP<CryptoPP::DL_GroupParameters_DSA>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1392): warning C4100: 'rng' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1393) : while compiling class template member function 'void CryptoPP::DL_SimpleKeyAgreementDomainBase<CryptoPP::Integer>::GeneratePublicKey(CryptoPP::RandomNumberGenerator &,const byte *,byte *) const'
+                 A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/dh.h(60) : see reference to function template instantiation 'void CryptoPP::DL_SimpleKeyAgreementDomainBase<CryptoPP::Integer>::GeneratePublicKey(CryptoPP::RandomNumberGenerator &,const byte *,byte *) const' being compiled
+                 A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/dh.h(14) : see reference to class template instantiation 'CryptoPP::DL_SimpleKeyAgreementDomainBase<CryptoPP::Integer>' being compiled
+                 A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/dh.h(92) : see reference to class template instantiation 'CryptoPP::DH_Domain<CryptoPP::DL_GroupParameters_GFP_DefaultSafePrime,CryptoPP::DL_GroupParameters_GFP_DefaultSafePrime::DefaultCofactorOption>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(96): warning C4127: conditional expression is constant
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(90) : while compiling class template member function 'unsigned char *CryptoPP::AllocatorWithCleanup<byte,false>::allocate(CryptoPP::AllocatorWithCleanup<byte,false>::size_type,const void *)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(246) : see reference to function template instantiation 'unsigned char *CryptoPP::AllocatorWithCleanup<byte,false>::allocate(CryptoPP::AllocatorWithCleanup<byte,false>::size_type,const void *)' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(129) : see reference to class template instantiation 'CryptoPP::AllocatorWithCleanup<byte,false>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(108): warning C4127: conditional expression is constant
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(104) : while compiling class template member function 'void CryptoPP::AllocatorWithCleanup<byte,false>::deallocate(void *,CryptoPP::AllocatorWithCleanup<byte,false>::size_type)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(261) : see reference to function template instantiation 'void CryptoPP::AllocatorWithCleanup<byte,false>::deallocate(void *,CryptoPP::AllocatorWithCleanup<byte,false>::size_type)' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(972): warning C4100: 'signatureLength' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(973) : while compiling class template member function 'size_t CryptoPP::DL_SignatureSchemeBase<CryptoPP::PK_Signer,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>::MaxRecoverableLengthFromSignatureLength(size_t) const'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(995) : see reference to class template instantiation 'CryptoPP::DL_SignatureSchemeBase<CryptoPP::PK_Signer,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(25) : see reference to class template instantiation 'CryptoPP::DL_SignerBase<CryptoPP::Integer>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1282) : see reference to class template instantiation 'CryptoPP::AlgorithmImpl<BASE,CryptoPP::DSA>' being compiled
+                 with
+                 [
+                     BASE=CryptoPP::DL_SignerBase<CryptoPP::Integer>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1317) : see reference to class template instantiation 'CryptoPP::DL_ObjectImplBase<BASE,SCHEME_OPTIONS,KEY>' being compiled
+                 with
+                 [
+                     BASE=CryptoPP::DL_SignerBase<CryptoPP::Integer>
+         ,            SCHEME_OPTIONS=CryptoPP::DL_SignatureSchemeOptions<CryptoPP::DSA,CryptoPP::DL_Keys_DSA,CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>,CryptoPP::DL_SignatureMessageEncodingMethod_DSA,CryptoPP::SHA>
+         ,            KEY=CryptoPP::DL_PrivateKey_WithSignaturePairwiseConsistencyTest<CryptoPP::DL_PrivateKey_GFP<CryptoPP::DL_GroupParameters_DSA>,CryptoPP::DSA>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1339) : see reference to class template instantiation 'CryptoPP::DL_ObjectImpl<CryptoPP::DL_SignerBase<CryptoPP::Integer>,SCHEME_OPTIONS,CryptoPP::DL_PrivateKey_WithSignaturePairwiseConsistencyTest<CryptoPP::DL_PrivateKey_GFP<CryptoPP::DL_GroupParameters_DSA>,CryptoPP::DSA>>' being compiled
+                 with
+                 [
+                     SCHEME_OPTIONS=CryptoPP::DL_SignatureSchemeOptions<CryptoPP::DSA,CryptoPP::DL_Keys_DSA,CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>,CryptoPP::DL_SignatureMessageEncodingMethod_DSA,CryptoPP::SHA>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1489) : see reference to class template instantiation 'CryptoPP::DL_SignerImpl<CryptoPP::DL_SignatureSchemeOptions<ALG_INFO,KEYS,SA,MEM,H>>' being compiled
+                 with
+                 [
+                     ALG_INFO=CryptoPP::DSA
+         ,            KEYS=CryptoPP::DL_Keys_DSA
+         ,            SA=CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>
+         ,            MEM=CryptoPP::DL_SignatureMessageEncodingMethod_DSA
+         ,            H=CryptoPP::SHA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(830) : see reference to class template instantiation 'CryptoPP::PK_FinalTemplate<CryptoPP::DL_SignerImpl<CryptoPP::DL_SignatureSchemeOptions<ALG_INFO,KEYS,SA,MEM,H>>>' being compiled
+                 with
+                 [
+                     ALG_INFO=CryptoPP::DSA
+         ,            KEYS=CryptoPP::DL_Keys_DSA
+         ,            SA=CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>
+         ,            MEM=CryptoPP::DL_SignatureMessageEncodingMethod_DSA
+         ,            H=CryptoPP::SHA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(825) : while compiling class template member function 'void CryptoPP::DL_PrivateKey_WithSignaturePairwiseConsistencyTest<CryptoPP::DL_PrivateKey_GFP<CryptoPP::DL_GroupParameters_DSA>,CryptoPP::DSA>::GenerateRandom(CryptoPP::RandomNumberGenerator &,const CryptoPP::NameValuePairs &)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(416) : see reference to class template instantiation 'CryptoPP::DL_PrivateKey_WithSignaturePairwiseConsistencyTest<CryptoPP::DL_PrivateKey_GFP<CryptoPP::DL_GroupParameters_DSA>,CryptoPP::DSA>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1086): warning C4100: 'signatureLength' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1087) : while compiling class template member function 'void CryptoPP::DL_VerifierBase<CryptoPP::Integer>::InputSignature(CryptoPP::PK_MessageAccumulator &,const byte *,size_t) const'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\simple.h(25) : see reference to class template instantiation 'CryptoPP::DL_VerifierBase<CryptoPP::Integer>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1282) : see reference to class template instantiation 'CryptoPP::AlgorithmImpl<BASE,CryptoPP::DSA>' being compiled
+                 with
+                 [
+                     BASE=CryptoPP::DL_VerifierBase<CryptoPP::Integer>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1317) : see reference to class template instantiation 'CryptoPP::DL_ObjectImplBase<BASE,SCHEME_OPTIONS,KEY>' being compiled
+                 with
+                 [
+                     BASE=CryptoPP::DL_VerifierBase<CryptoPP::Integer>
+         ,            SCHEME_OPTIONS=CryptoPP::DL_SignatureSchemeOptions<CryptoPP::DSA,CryptoPP::DL_Keys_DSA,CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>,CryptoPP::DL_SignatureMessageEncodingMethod_DSA,CryptoPP::SHA>
+         ,            KEY=CryptoPP::DL_PublicKey_GFP<CryptoPP::DL_GroupParameters_DSA>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1352) : see reference to class template instantiation 'CryptoPP::DL_ObjectImpl<CryptoPP::DL_VerifierBase<CryptoPP::Integer>,SCHEME_OPTIONS,CryptoPP::DL_PublicKey_GFP<CryptoPP::DL_GroupParameters_DSA>>' being compiled
+                 with
+                 [
+                     SCHEME_OPTIONS=CryptoPP::DL_SignatureSchemeOptions<CryptoPP::DSA,CryptoPP::DL_Keys_DSA,CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>,CryptoPP::DL_SignatureMessageEncodingMethod_DSA,CryptoPP::SHA>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1489) : see reference to class template instantiation 'CryptoPP::DL_VerifierImpl<CryptoPP::DL_SignatureSchemeOptions<ALG_INFO,KEYS,SA,MEM,H>>' being compiled
+                 with
+                 [
+                     ALG_INFO=CryptoPP::DSA
+         ,            KEYS=CryptoPP::DL_Keys_DSA
+         ,            SA=CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>
+         ,            MEM=CryptoPP::DL_SignatureMessageEncodingMethod_DSA
+         ,            H=CryptoPP::SHA
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(831) : see reference to class template instantiation 'CryptoPP::PK_FinalTemplate<CryptoPP::DL_VerifierImpl<CryptoPP::DL_SignatureSchemeOptions<ALG_INFO,KEYS,SA,MEM,H>>>' being compiled
+                 with
+                 [
+                     ALG_INFO=CryptoPP::DSA
+         ,            KEYS=CryptoPP::DL_Keys_DSA
+         ,            SA=CryptoPP::DL_Algorithm_GDSA<CryptoPP::Integer>
+         ,            MEM=CryptoPP::DL_SignatureMessageEncodingMethod_DSA
+         ,            H=CryptoPP::SHA
+                 ]
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(149): warning C4100: 'n' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(150) : while compiling class template member function 'void CryptoPP::NullAllocator<T>::deallocate(void *,CryptoPP::NullAllocator<T>::size_type)'
+                 with
+                 [
+                     T=byte
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(202) : see reference to function template instantiation 'void CryptoPP::NullAllocator<T>::deallocate(void *,CryptoPP::NullAllocator<T>::size_type)' being compiled
+                 with
+                 [
+                     T=byte
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(232) : see reference to class template instantiation 'CryptoPP::NullAllocator<T>' being compiled
+                 with
+                 [
+                     T=byte
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(241) : see reference to class template instantiation 'CryptoPP::FixedSizeAllocatorWithCleanup<T,32,CryptoPP::NullAllocator<T>,false>' being compiled
+                 with
+                 [
+                     T=byte
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(423) : see reference to class template instantiation 'CryptoPP::SecBlock<T,A>' being compiled
+                 with
+                 [
+                     T=byte
+         ,            A=CryptoPP::FixedSizeAllocatorWithCleanup<byte,32,CryptoPP::NullAllocator<byte>,false>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\randpool.h(25) : see reference to class template instantiation 'CryptoPP::FixedSizeSecBlock<byte,32,CryptoPP::FixedSizeAllocatorWithCleanup<T,32,CryptoPP::NullAllocator<T>,false>>' being compiled
+                 with
+                 [
+                     T=byte
+                 ]
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(149): warning C4100: 'p' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1065): warning C4100: 'ma' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1066) : while compiling class template member function 'void CryptoPP::DL_SignerBase<CryptoPP::Integer>::RestartMessageAccumulator(CryptoPP::RandomNumberGenerator &,CryptoPP::PK_MessageAccumulatorBase &) const'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1344) : see reference to function template instantiation 'void CryptoPP::DL_SignerBase<CryptoPP::Integer>::RestartMessageAccumulator(CryptoPP::RandomNumberGenerator &,CryptoPP::PK_MessageAccumulatorBase &) const' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(1065): warning C4100: 'rng' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(143): warning C4100: 'n' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(144) : while compiling class template member function 'unsigned int *CryptoPP::NullAllocator<T>::allocate(CryptoPP::NullAllocator<T>::size_type,const void *)'
+                 with
+                 [
+                     T=CryptoPP::word32
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(189) : see reference to function template instantiation 'unsigned int *CryptoPP::NullAllocator<T>::allocate(CryptoPP::NullAllocator<T>::size_type,const void *)' being compiled
+                 with
+                 [
+                     T=CryptoPP::word32
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(232) : see reference to class template instantiation 'CryptoPP::NullAllocator<T>' being compiled
+                 with
+                 [
+                     T=CryptoPP::word32
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(241) : see reference to class template instantiation 'CryptoPP::FixedSizeAllocatorWithCleanup<T,60,CryptoPP::NullAllocator<T>,true>' being compiled
+                 with
+                 [
+                     T=CryptoPP::word32
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(423) : see reference to class template instantiation 'CryptoPP::SecBlock<T,A>' being compiled
+                 with
+                 [
+                     T=CryptoPP::word32
+         ,            A=CryptoPP::FixedSizeAllocatorWithCleanup<CryptoPP::word32,60,CryptoPP::NullAllocator<CryptoPP::word32>,true>
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(430) : see reference to class template instantiation 'CryptoPP::FixedSizeSecBlock<T,60,CryptoPP::FixedSizeAllocatorWithCleanup<T,60,CryptoPP::NullAllocator<T>,true>>' being compiled
+                 with
+                 [
+                     T=CryptoPP::word32
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\rijndael.h(37) : see reference to class template instantiation 'CryptoPP::FixedSizeAlignedSecBlock<CryptoPP::word32,60,true>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(155): warning C4100: 'dummy' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(129) : see reference to function template instantiation 'CryptoPP::GetValueHelperClass<CryptoPP::DL_GroupParameters_GFP,CryptoPP::DL_GroupParameters_IntegerBased> CryptoPP::GetValueHelper<CryptoPP::DL_GroupParameters_IntegerBased,CryptoPP::DL_GroupParameters_GFP>(const T *,const char *,const type_info &,void *,const CryptoPP::NameValuePairs *,BASE *)' being compiled
+                 with
+                 [
+                     T=CryptoPP::DL_GroupParameters_GFP
+         ,            BASE=CryptoPP::DL_GroupParameters_IntegerBased
+                 ]
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\misc.h(366): warning C4127: conditional expression is constant
+                 A:\From C\Desktop\Serwer\Source\Source Client\extern\include\cryptopp/skipjack.h(25) : see reference to function template instantiation 'unsigned int CryptoPP::GetAlignmentOf<CryptoPP::word16>(T *)' being compiled
+                 with
+                 [
+                     T=CryptoPP::word16
+                 ]
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\misc.h(363): warning C4100: 'dummy' : unreferenced formal parameter
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(229): warning C4100: 'dummy' : unreferenced formal parameter
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(96) : see reference to function template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>,CryptoPP::DL_GroupParameters_IntegerBased> CryptoPP::AssignFromHelper<CryptoPP::DL_GroupParameters_IntegerBased,CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>>(T *,const CryptoPP::NameValuePairs &,BASE *)' being compiled
+                 with
+                 [
+                     T=CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>
+         ,            BASE=CryptoPP::DL_GroupParameters_IntegerBased
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\gfpcrypt.h(96) : while compiling class template member function 'void CryptoPP::DL_GroupParameters_IntegerBasedImpl<CryptoPP::ModExpPrecomputation,CryptoPP::DL_FixedBasePrecomputationImpl<CryptoPP::Integer>>::AssignFrom(const CryptoPP::NameValuePairs &)'
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\misc.h(537): warning C4127: conditional expression is constant
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(105) : see reference to function template instantiation 'void CryptoPP::SecureWipeArray<T>(T *,size_t)' being compiled
+                 with
+                 [
+                     T=byte
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(104) : while compiling class template member function 'void CryptoPP::AllocatorWithCleanup<byte,false>::deallocate(void *,CryptoPP::AllocatorWithCleanup<byte,false>::size_type)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\secblock.h(261) : see reference to function template instantiation 'void CryptoPP::AllocatorWithCleanup<byte,false>::deallocate(void *,CryptoPP::AllocatorWithCleanup<byte,false>::size_type)' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\misc.h(539): warning C4127: conditional expression is constant
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\misc.h(541): warning C4127: conditional expression is constant
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(226): warning C4512: 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PrivateKey<CryptoPP::Integer>,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>' : assignment operator could not be generated
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(697) : see reference to class template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PrivateKey<CryptoPP::Integer>,CryptoPP::DL_PrivateKey<CryptoPP::Integer>>' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(695) : while compiling class template member function 'void CryptoPP::DL_PrivateKey<CryptoPP::Integer>::AssignFrom(const CryptoPP::NameValuePairs &)'
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(190) : see reference to function template instantiation 'void CryptoPP::DL_PrivateKey<CryptoPP::Integer>::AssignFrom(const CryptoPP::NameValuePairs &)' being compiled
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(750) : see reference to class template instantiation 'CryptoPP::DL_PrivateKey<CryptoPP::Integer>' being compiled
+     1>a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(226): warning C4512: 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PublicKey<T>,CryptoPP::DL_PublicKey<T>>' : assignment operator could not be generated
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(714) : see reference to class template instantiation 'CryptoPP::AssignFromHelperClass<CryptoPP::DL_PublicKey<T>,CryptoPP::DL_PublicKey<T>>' being compiled
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(707) : while compiling class template member function 'void CryptoPP::DL_PublicKey<T>::AssignFrom(const CryptoPP::NameValuePairs &)'
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(190) : see reference to function template instantiation 'void CryptoPP::DL_PublicKey<T>::AssignFrom(const CryptoPP::NameValuePairs &)' being compiled
+                 with
+                 [
+                     T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(86) : while compiling class template member function 'CryptoPP::GetValueHelperClass<CryptoPP::DL_PublicKeyImpl<GP>,CryptoPP::DL_PublicKey<T>>::GetValueHelperClass(const CryptoPP::DL_PublicKeyImpl<GP> *,const char *,const type_info &,void *,const CryptoPP::NameValuePairs *)'
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+         ,            T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\algparam.h(157) : see reference to function template instantiation 'CryptoPP::GetValueHelperClass<CryptoPP::DL_PublicKeyImpl<GP>,CryptoPP::DL_PublicKey<T>>::GetValueHelperClass(const CryptoPP::DL_PublicKeyImpl<GP> *,const char *,const type_info &,void *,const CryptoPP::NameValuePairs *)' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+         ,            T=CryptoPP::Integer
+                 ]
+                 a:\from c\desktop\serwer\source\source client\extern\include\cryptopp\pubkey.h(854) : see reference to class template instantiation 'CryptoPP::GetValueHelperClass<CryptoPP::DL_PublicKeyImpl<GP>,CryptoPP::DL_PublicKey<T>>' being compiled
+                 with
+                 [
+                     GP=CryptoPP::DL_GroupParameters_DSA
+         ,            T=CryptoPP::Integer
+                 ]
+         CPostIt.cpp
+         CRC32.cpp
+         Debug.cpp
+         error.cpp
+         FileBase.cpp
+         FileDir.cpp
+         FileLoader.cpp
+         lzo.cpp
+         MappedFile.cpp
+         Base.cpp
+         Poly.cpp
+         Symbol.cpp
+         SymTable.cpp
+         Random.cpp
+         StdAfx.cpp
+         Stl.cpp
+         tea.cpp
+         TempFile.cpp
+         Timer.cpp
+         Generating Code...
+         Compiling...
+         Utils.cpp
+     1>Utils.cpp(340): warning C4127: conditional expression is constant
+         Generating Code...
+     1>a:\from c\desktop\serwer\source\source client\client\eterbase\utils.cpp(627): warning C4706: assignment within conditional expression
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\eterBase.lib" /LIBPATH:../../extern/lib /NOLOGO .\Distribute/cipher.obj
+         .\Distribute/CPostIt.obj
+         .\Distribute/CRC32.obj
+         .\Distribute/Debug.obj
+         .\Distribute/error.obj
+         .\Distribute/FileBase.obj
+         .\Distribute/FileDir.obj
+         .\Distribute/FileLoader.obj
+         .\Distribute/lzo.obj
+         .\Distribute/MappedFile.obj
+         .\Distribute/Base.obj
+         .\Distribute/Poly.obj
+         .\Distribute/Symbol.obj
+         .\Distribute/SymTable.obj
+         .\Distribute/Random.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/Stl.obj
+         .\Distribute/tea.obj
+         .\Distribute/TempFile.obj
+         .\Distribute/Timer.obj
+         .\Distribute/Utils.obj
+     1>StdAfx.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         eterBase_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\EterBase\.\Distribute\eterBase.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterBase\eterBase_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:12.11

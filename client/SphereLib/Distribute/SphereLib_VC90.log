@@ -1,0 +1,21 @@
+﻿Build started 11.01.2018 21:55:23.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\SphereLib\SphereLib_VC90.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:strict /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/SphereLib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:strict /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Distribute/SphereLib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt frustum.cpp sphere.cpp spherepack.cpp
+         frustum.cpp
+         sphere.cpp
+         spherepack.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\SphereLib.lib" /NOLOGO .\Distribute/frustum.obj
+         .\Distribute/sphere.obj
+         .\Distribute/spherepack.obj
+         .\Distribute/StdAfx.obj
+         SphereLib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\SphereLib\.\Distribute\SphereLib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\SphereLib\SphereLib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.91

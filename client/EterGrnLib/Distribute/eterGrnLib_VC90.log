@@ -1,0 +1,47 @@
+﻿Build started 11.01.2018 21:55:30.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\eterGrnLib\eterGrnLib_VC90.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Distribute/eterGrnLib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LODController.cpp Material.cpp Mesh.cpp Model.cpp ModelInstance.cpp ModelInstanceCollisionDetection.cpp ModelInstanceModel.cpp ModelInstanceMotion.cpp ModelInstanceRender.cpp ModelInstanceUpdate.cpp Motion.cpp Thing.cpp ThingInstance.cpp Util.cpp
+         LODController.cpp
+         Material.cpp
+     1>Material.cpp(209): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 A:\VS\VC\include\stdio.h(346) : see declaration of '_snprintf'
+         Mesh.cpp
+         Model.cpp
+         ModelInstance.cpp
+         ModelInstanceCollisionDetection.cpp
+         ModelInstanceModel.cpp
+         ModelInstanceMotion.cpp
+         ModelInstanceRender.cpp
+         ModelInstanceUpdate.cpp
+         Motion.cpp
+     1>Motion.cpp(66): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 A:\VS\VC\include\string.h(253) : see declaration of 'stricmp'
+         Thing.cpp
+         ThingInstance.cpp
+         Util.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\eterGrnLib.lib" /NOLOGO .\Distribute/LODController.obj
+         .\Distribute/Material.obj
+         .\Distribute/Mesh.obj
+         .\Distribute/Model.obj
+         .\Distribute/ModelInstance.obj
+         .\Distribute/ModelInstanceCollisionDetection.obj
+         .\Distribute/ModelInstanceModel.obj
+         .\Distribute/ModelInstanceMotion.obj
+         .\Distribute/ModelInstanceRender.obj
+         .\Distribute/ModelInstanceUpdate.obj
+         .\Distribute/Motion.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/Thing.obj
+         .\Distribute/ThingInstance.obj
+         .\Distribute/Util.obj
+         eterGrnLib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\eterGrnLib\.\Distribute\eterGrnLib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\eterGrnLib\eterGrnLib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.90

@@ -1,0 +1,165 @@
+﻿Build started 11.01.2018 21:55:42.
+     1>Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLib\eterlib_VC90.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp".\Distribute\eterlib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         A:\VS\VC\bin\CL.exe /c /I. /I../../extern/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\Distribute\eterlib.pch" /FAcs /Fa".\Distribute/" /Fo".\Distribute/" /Fd".\Distribute/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AttributeData.cpp AttributeInstance.cpp BlockTexture.cpp Camera.cpp CollisionData.cpp ColorTransitionHelper.cpp CullingManager.cpp Decal.cpp DibBar.cpp EnvironmentMap.cpp FileLoaderThread.cpp GrpBase.cpp GrpCollisionObject.cpp GrpColor.cpp GrpColorInstance.cpp GrpD3DXBuffer.cpp GrpDetector.cpp GrpDevice.cpp GrpDIB.cpp GrpExpandedImageInstance.cpp GrpFontTexture.cpp GrpImage.cpp GrpImageInstance.cpp GrpImageTexture.cpp GrpIndexBuffer.cpp GrpLightManager.cpp GrpMarkInstance.cpp GrpMath.cpp GrpObjectInstance.cpp GrpPixelShader.cpp GrpRatioInstance.cpp GrpScreen.cpp GrpShadowTexture.cpp GrpSubImage.cpp GrpText.cpp GrpTextInstance.cpp GrpTexture.cpp GrpVertexBuffer.cpp GrpVertexBufferDynamic.cpp GrpVertexBufferStatic.cpp GrpVertexShader.cpp IME.cpp Input.cpp JpegFile.cpp LensFlare.cpp lineintersect_utils.cpp MSApplication.cpp MSWindow.cpp Mutex.cpp NetAddress.cpp NetDatagram.cpp NetDatagramReceiver.cpp NetDatagramSender.cpp NetDevice.cpp NetPacketHeaderMap.cpp NetStream.cpp parser.cpp PathStack.cpp ReferenceObject.cpp Resource.cpp ResourceManager.cpp ScreenFilter.cpp SkyBox.cpp StateManager.cpp TargaResource.cpp TextBar.cpp TextFileLoader.cpp TextTag.cpp Thread.cpp Util.cpp
+         AttributeData.cpp
+         AttributeInstance.cpp
+         BlockTexture.cpp
+         Camera.cpp
+         CollisionData.cpp
+         ColorTransitionHelper.cpp
+         CullingManager.cpp
+         Decal.cpp
+         DibBar.cpp
+         EnvironmentMap.cpp
+         FileLoaderThread.cpp
+         GrpBase.cpp
+         GrpCollisionObject.cpp
+         GrpColor.cpp
+         GrpColorInstance.cpp
+         GrpD3DXBuffer.cpp
+         GrpDetector.cpp
+         GrpDevice.cpp
+         GrpDIB.cpp
+         GrpExpandedImageInstance.cpp
+         Generating Code...
+         Compiling...
+         GrpFontTexture.cpp
+         GrpImage.cpp
+         GrpImageInstance.cpp
+         GrpImageTexture.cpp
+         GrpIndexBuffer.cpp
+         GrpLightManager.cpp
+         GrpMarkInstance.cpp
+         GrpMath.cpp
+         GrpObjectInstance.cpp
+         GrpPixelShader.cpp
+         GrpRatioInstance.cpp
+         GrpScreen.cpp
+         GrpShadowTexture.cpp
+         GrpSubImage.cpp
+         GrpText.cpp
+         GrpTextInstance.cpp
+         GrpTexture.cpp
+         GrpVertexBuffer.cpp
+         GrpVertexBufferDynamic.cpp
+         GrpVertexBufferStatic.cpp
+         Generating Code...
+         Compiling...
+         GrpVertexShader.cpp
+         IME.cpp
+     1>IME.cpp(309): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>IME.cpp(1182): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         Input.cpp
+         JpegFile.cpp
+         LensFlare.cpp
+         lineintersect_utils.cpp
+         MSApplication.cpp
+         MSWindow.cpp
+         Mutex.cpp
+         NetAddress.cpp
+         NetDatagram.cpp
+         NetDatagramReceiver.cpp
+         NetDatagramSender.cpp
+         NetDevice.cpp
+         NetPacketHeaderMap.cpp
+         NetStream.cpp
+         parser.cpp
+         PathStack.cpp
+         ReferenceObject.cpp
+         Resource.cpp
+         Generating Code...
+         Compiling...
+         ResourceManager.cpp
+         ScreenFilter.cpp
+         SkyBox.cpp
+         StateManager.cpp
+         TargaResource.cpp
+         TextBar.cpp
+         TextFileLoader.cpp
+         TextTag.cpp
+         Thread.cpp
+         Util.cpp
+         Generating Code...
+       Lib:
+         A:\VS\VC\bin\Lib.exe /OUT:".\Distribute\eterlib.lib" /NOLOGO .\Distribute/AttributeData.obj
+         .\Distribute/AttributeInstance.obj
+         .\Distribute/BlockTexture.obj
+         .\Distribute/Camera.obj
+         .\Distribute/CollisionData.obj
+         .\Distribute/ColorTransitionHelper.obj
+         .\Distribute/CullingManager.obj
+         .\Distribute/Decal.obj
+         .\Distribute/DibBar.obj
+         .\Distribute/EnvironmentMap.obj
+         .\Distribute/FileLoaderThread.obj
+         .\Distribute/GrpBase.obj
+         .\Distribute/GrpCollisionObject.obj
+         .\Distribute/GrpColor.obj
+         .\Distribute/GrpColorInstance.obj
+         .\Distribute/GrpD3DXBuffer.obj
+         .\Distribute/GrpDetector.obj
+         .\Distribute/GrpDevice.obj
+         .\Distribute/GrpDIB.obj
+         .\Distribute/GrpExpandedImageInstance.obj
+         .\Distribute/GrpFontTexture.obj
+         .\Distribute/GrpImage.obj
+         .\Distribute/GrpImageInstance.obj
+         .\Distribute/GrpImageTexture.obj
+         .\Distribute/GrpIndexBuffer.obj
+         .\Distribute/GrpLightManager.obj
+         .\Distribute/GrpMarkInstance.obj
+         .\Distribute/GrpMath.obj
+         .\Distribute/GrpObjectInstance.obj
+         .\Distribute/GrpPixelShader.obj
+         .\Distribute/GrpRatioInstance.obj
+         .\Distribute/GrpScreen.obj
+         .\Distribute/GrpShadowTexture.obj
+         .\Distribute/GrpSubImage.obj
+         .\Distribute/GrpText.obj
+         .\Distribute/GrpTextInstance.obj
+         .\Distribute/GrpTexture.obj
+         .\Distribute/GrpVertexBuffer.obj
+         .\Distribute/GrpVertexBufferDynamic.obj
+         .\Distribute/GrpVertexBufferStatic.obj
+         .\Distribute/GrpVertexShader.obj
+         .\Distribute/IME.obj
+         .\Distribute/Input.obj
+         .\Distribute/JpegFile.obj
+         .\Distribute/LensFlare.obj
+         .\Distribute/lineintersect_utils.obj
+         .\Distribute/MSApplication.obj
+         .\Distribute/MSWindow.obj
+         .\Distribute/Mutex.obj
+         .\Distribute/NetAddress.obj
+         .\Distribute/NetDatagram.obj
+         .\Distribute/NetDatagramReceiver.obj
+         .\Distribute/NetDatagramSender.obj
+         .\Distribute/NetDevice.obj
+         .\Distribute/NetPacketHeaderMap.obj
+         .\Distribute/NetStream.obj
+         .\Distribute/parser.obj
+         .\Distribute/PathStack.obj
+         .\Distribute/ReferenceObject.obj
+         .\Distribute/Resource.obj
+         .\Distribute/ResourceManager.obj
+         .\Distribute/ScreenFilter.obj
+         .\Distribute/SkyBox.obj
+         .\Distribute/StateManager.obj
+         .\Distribute/StdAfx.obj
+         .\Distribute/TargaResource.obj
+         .\Distribute/TextBar.obj
+         .\Distribute/TextFileLoader.obj
+         .\Distribute/TextTag.obj
+         .\Distribute/Thread.obj
+         .\Distribute/Util.obj
+         eterlib_VC90.vcxproj -> A:\From C\Desktop\Serwer\Source\Source Client\client\EterLib\.\Distribute\eterlib.lib
+     1>Done Building Project "A:\From C\Desktop\Serwer\Source\Source Client\client\EterLib\eterlib_VC90.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:00.63
