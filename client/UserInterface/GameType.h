@@ -87,7 +87,7 @@ enum EDragonSoulGradeTypes
 	DRAGON_SOUL_GRADE_MAX,
 
 };
-
+// dupa
 enum EDragonSoulStepTypes
 {
 	DRAGON_SOUL_STEP_LOWEST,
